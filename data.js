@@ -1,3 +1,5 @@
+//data.js
+//here is the data for the interactive quiz
 const Qs = [
   {q:"What does <code>typeof null</code> return in JavaScript?",opts:["null","undefined","object","boolean"],ans:2,tag:"Types",why:"This is a famous JS bug. <strong>typeof null === 'object'</strong> — a quirk from the language's first version that was kept for backward compatibility."},
   {q:"Which keyword declares a block-scoped variable that <em>can</em> be reassigned?",opts:["var","let","const","static"],ans:1,tag:"Variables",why:"<strong>let</strong> is block-scoped and reassignable. <strong>const</strong> is block-scoped but not reassignable. <strong>var</strong> is function-scoped and hoisted."},
@@ -13,3 +15,6 @@ const Qs = [
 
 const KEYS = ['A','B','C','D'];
 const TOTAL_TIME = 100;
+
+
+
