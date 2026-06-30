@@ -15,7 +15,7 @@ function startTimer(){
     if(el) el.textContent = fmt(left);
     if(card){left <= 15 ? card.classList.add('urgent') : card.classList.remove('urgent')}
     if(left <= 0){stopTimer(); autoFail()}
-  }, 25000);
+  }, 1000);
 }
 
 function autoFail(){
